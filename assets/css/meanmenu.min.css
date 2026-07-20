@@ -1,9 +1,8 @@
 a.meanmenu-reveal{display:none}
 .mean-container .mean-bar {
-  background: #846A4D;
   float: left;
   min-height: 60px;
-  padding: 4px 0 0;
+  padding: 14px 0 0;
   position: relative;
   width: 100%;
   z-index: 999;
@@ -119,13 +118,14 @@ a.meanmenu-reveal{display:none}
 .mean-container a.meanmenu-reveal:hover span {
   background: #fff;
 }
-.mean-container .mean-bar::before {
-    color: #fff;
-    content: "Arcke";
-    font-size: 28px;
-    font-weight: 600;
-    left: 10px;
-    position: absolute;
-    top: 18px;
+.mean-container .mean-bar::before{
+    content:"";
+    position:absolute;
+    left:30px;
+    top:10px;
+    width:160px;
+    height:60px;
+    background:url("/assets/images/ECHJAY_logo.png") no-repeat left center;
+    background-size:contain;
 }
 

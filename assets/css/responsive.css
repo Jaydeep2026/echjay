@@ -1799,7 +1799,9 @@
 .service-area-seven .single-service-btn {
     margin-bottom: 50px;
 }
-
+.arcke-agency p{
+    font-size: 14px;
+}
 .about-area-seven .about-button {
     margin-bottom: 50px;
 }
@@ -2682,4 +2684,171 @@
 .portfolio-details-area .sideber-box {
     margin: 20px 0 50px 0;
 }
+}
+@media (max-width:991px){
+.horizontal-slider-area{
+    padding:60px 0;
+}
+
+.horizontal-slider-area .horizontal-slider-box{
+    height:420px;
+    background-size:cover;
+    background-position:center;
+}
+}
+
+@media (max-width:767px){
+.horizontal-slider-area .horizontal-slider-box{
+    height:280px;
+    background-size:cover;
+    background-position:center;
+}
+}
+
+@media (max-width:480px){
+.horizontal-slider-area .horizontal-slider-box{
+    height:220px;
+    background-size:cover;
+    background-position:center;
+}
+}
+@media (max-width: 991px){
+
+.about-area-seven{
+    padding:70px 0;
+}
+
+.about-area-seven .single-about-left{
+    height:auto;
+    padding-right:0;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.about-area-seven .section-title-seven h2{
+    font-size:40px;
+}
+
+.about-area-seven .post-comment-description p{
+    font-size:14px;
+    line-height:26px;
+    max-width:100%;
+}
+
+.about-area-seven .single-about-tmb{
+    height:380px;
+}
+}
+
+@media (max-width:576px){
+
+.about-area-seven .section-title-seven h2{
+    font-size:32px;
+}
+
+.about-area-seven .single-about-tmb{
+    height:260px;
+}
+
+.about-area-seven .post-comment-description p{
+    font-size:14px;
+    line-height:24px;
+}
+}
+@media (max-width: 991px){
+.benefits-image{
+    height:380px;
+}
+
+.benefits-content{
+    height:auto;
+    padding:50px 35px;
+    text-align:center;
+}
+
+.benefits-content h2{
+    font-size:34px;
+    margin-bottom:15px;
+}
+
+.benefits-content p{
+    max-width:100%;
+    line-height:28px;
+    margin-bottom:25px;
+}
+
+.benefits-features{
+    justify-content:center;
+    gap:20px;
+}
+
+.feature-item{
+    justify-content:center;
+}
+
+}
+
+@media (max-width: 767px){
+.benefits-image{
+    height:280px;
+}
+
+.benefits-content{
+    padding:40px 25px;
+}
+
+.benefits-content h2{
+    font-size:28px;
+    line-height:36px;
+}
+
+.benefits-content p{
+    font-size:14px;
+    line-height:24px;
+    margin-bottom:25px;
+}
+
+.benefits-features{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:18px;
+}
+
+.feature-item{
+    width:100%;
+}
+
+.feature-item i{
+    font-size:18px;
+    min-width:22px;
+}
+
+.feature-item span{
+    font-size:13px;
+}
+
+}
+
+@media (max-width: 480px){
+.benefits-image{
+    height:220px;
+}
+
+.benefits-content{
+    padding:30px 20px;
+}
+
+.benefits-content h2{
+    font-size:24px;
+    line-height:32px;
+}
+
+.benefits-content p{
+    line-height:22px;
+}
+
+.feature-item span{
+    font-size:12px;
+}
+
 }

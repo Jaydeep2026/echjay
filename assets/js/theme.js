@@ -206,8 +206,9 @@
     $('.horizontal_slid').owlCarousel({
         loop: true,
         autoplay: true,
-        smartSpeed:3000,
-        autoplayTimeout: 10000,
+        smartSpeed: 1000,
+        autoplaySpeed: 1000,
+        autoplayTimeout: 4000,
         dotsEach:true,
         dots: false,
         nav: true,
@@ -431,8 +432,9 @@
     $('.details_list').owlCarousel({
         loop: true,
         autoplay: true,
-        smartSpeed:1500,
-        autoplayTimeout: 10000,
+        margin: 15,
+        smartSpeed:1000,
+        autoplayTimeout: 5000,
         dotsEach:true,
         dots: false,
         nav: true,
@@ -445,13 +447,13 @@
                 items: 1
             },
             768: {
-                items: 1
+                items: 2
             },
             992: {
-                items: 1
+                items: 3
             },
             1000: {
-                items: 1
+                items: 3
             },
             1920: {
                 items: 5
