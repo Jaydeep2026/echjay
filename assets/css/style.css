@@ -12195,7 +12195,7 @@ button.btns:hover::before{
     border-radius: 50%;
     transition: all 1s 1s ease;
     border: 3px solid #fff;
-    border-top-color: #D8AB7A;
+    border-top-color: #E4525C;
     -webkit-animation: spin 1.5s linear infinite;
     -moz-animation: spin 1.5s linear infinite;
     -o-animation: spin 1.5s linear infinite;
@@ -12210,7 +12210,7 @@ button.btns:hover::before{
     right: 6px;
     bottom: 6px;
     border-radius: 50%;
-    border: 3px solid #D8AB7A;
+    border: 3px solid #E4525C;
     border-left-color: #fff;
     -webkit-animation: spin 2s linear infinite;
     -moz-animation: spin 2s linear infinite;
@@ -12226,7 +12226,7 @@ button.btns:hover::before{
     right: 15px;
     bottom: 15px;
     border-radius: 50%;
-    border: 3px solid #D8AB7A;
+    border: 3px solid #E4525C;
     border-right-color: #fff;
     -webkit-animation: spin 2.5s linear infinite;
     -moz-animation: spin 2.5s linear infinite;
@@ -12289,7 +12289,7 @@ button.btns:hover::before{
     top: 0;
     width: 50%;
     height: 100%;
-    background: #111;
+    background: #F8F8F8;
     z-index: 2;
 }
 
