@@ -1943,7 +1943,7 @@
 }
 
 .sub-title h2 {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 35px;
 }
 
@@ -2455,7 +2455,7 @@
     display: none;
 }
 .team-area.one {
-    padding: 100px 0 90px;
+    padding: 40px 0 90px;
 }
 .team-area.one::before {
     display: none;
