@@ -1945,8 +1945,8 @@
 }
 
 .sub-title h2 {
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 1.75rem;
+    line-height: 2.5;
 }
 
 .about-area.one .abouts-shapes {
@@ -2049,7 +2049,7 @@
 }
 
 .main-title h1 {
-    font-size: 32px;
+    font-size: 3rem;
 }
 
 .blog-area.one .row.bd-tp {
@@ -2085,8 +2085,9 @@
 }
 
 .section_title .main_title h1 {
-    font-size: 21px;
-    line-height: 40px;
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: 0;
 }
 
 .about_area_three .about_button {
@@ -2174,8 +2175,10 @@
 }
 
 .section_title_five .main_title h1 {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: 0;
+
 }
 
 .section_title_five .sub_title h4 {
@@ -2215,7 +2218,7 @@
     margin: 0 0px 30px;
 }
 .project-area.one {
-    padding: 100px 0 100px;
+    padding: 50px 10px 50px;
 }
 .testimonial_area_five .single_testimonial_box .testimonial_description p {
     font-size: 12px;
@@ -2423,7 +2426,8 @@
     left: 60%;
 }
 .sub-title h2::after {
-    top: 63px!important;
+    top: calc(100% + 28px) !important;
+    
 }
 
 .project-area.one .project-content.style-one .project-button::before {
@@ -2850,5 +2854,30 @@
 .feature-item span{
     font-size:12px;
 }
-
+.about_area_five{
+    padding: 60px 0;
+}
+.slider_area_five.upper{
+    height: 100vh;
+    margin-top: 0 ;
+}
+.about_area_five {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact_area_three{
+    padding: 60px 10px 60px;
+}
+.contact_area_three .single_contact_thumb img {
+    width: auto;
+    max-width: 100%;
+    margin-left: 0;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.contact_area_three{
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
 }

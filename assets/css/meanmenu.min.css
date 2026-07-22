@@ -94,7 +94,7 @@ a.meanmenu-reveal{display:none}
 	border-radius: 0;
 }
 .mean-container a.meanmenu-reveal span {
-  background: #fff;
+  background: #ef7d36;
 }
 .mobile-menu-area {
   background: #fff none repeat scroll 0 0;
@@ -110,13 +110,13 @@ a.meanmenu-reveal{display:none}
   background: #444;
 }
 .mean-container a.meanmenu-reveal {
-  color: #fff;
+  color: #6bb660;
 }
 .meanmenu-reveal.meanclose:hover {
-  color: #fff !important;
+  color: #ef7d36 !important;
 }
 .mean-container a.meanmenu-reveal:hover span {
-  background: #fff;
+  background: #6bb660;
 }
 .mean-container .mean-bar::before{
     content:"";

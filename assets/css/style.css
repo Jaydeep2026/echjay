@@ -187,7 +187,7 @@ Tags:       architect, architecture, architecture design, architecture portfolio
     width: 100%;
     -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-    background: rgba(71, 69, 69, 0.35);
+    background: rgba(255, 255, 255, 0.65);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid #DEDEDE;
     transition: .5s;
@@ -197,7 +197,7 @@ Tags:       architect, architecture, architecture design, architecture portfolio
 }
 
 .header-src-box {
-    text-align: center;
+    text-align: right;
 }
 
 .header-icon {
@@ -590,12 +590,12 @@ nav.hendre_menu span {
 
 .hendre_menu ul .sub-menu li a {
     display: block;
-    padding: 12px 20px;
+    padding: 8px 20px;
     margin: 0;
     line-height: 1.3;
     letter-spacing: normal;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 0.865rem;
+    font-weight: 800;
     text-transform: capitalize;
     -webkit-transition: .1s;
     transition: .1s;
@@ -714,9 +714,10 @@ ul.sub-menu li:hover a span{
 
 .head-btn a {
     display: inline-block;
-    font-size: 16px;
+    font-size: 0.865rem;
+    font-weight: 800;
     background: #E4525C;
-    padding: 11px 27px;
+    padding: 8px 20px;
     color: #fff;
     box-shadow: 0 2px 5px #ccc;
     text-transform: uppercase;
@@ -10960,6 +10961,7 @@ button.btns:hover::before{
     font-size: 15px;
     line-height: 26px;
     color: #999999;
+    text-transform: uppercase;
     font-weight: 400;
     margin: 24px 0 24px;
     text-align: center;
@@ -12405,10 +12407,11 @@ button.btns:hover::before{
 }
 
 .copyright-area .copyright-title h4 {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 26px;
+    text-transform: uppercase;
     color: #999999;
-    font-weight: 400;
+    font-weight: 600;
     margin: 0 0 0;
 }
 
