@@ -105,10 +105,9 @@ Tags:       architect, architecture, architecture design, architecture portfolio
 }
 
 .hendre_nav_manu.two {
-    background: rgba(71, 69, 69, 0.35);
+    background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid #DEDEDE;
-    /* background: #fff!important; */
 }
 
 .hendre_nav_manu.three {
@@ -283,7 +282,7 @@ Tags:       architect, architecture, architecture design, architecture portfolio
 
 
 .hendre_nav_manu.two .hendre_menu>ul>li>a {
-    color: #fff;
+    color: #111;
 }
 
 .header-button.two a {
@@ -518,7 +517,8 @@ nav.hendre_menu {
     margin: 25px 17px;
     transition: .5s;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
     line-height: 30px;
     color: #ffffff;
     font-weight: 500;
@@ -754,7 +754,7 @@ ul.sub-menu li:hover a span{
 }
 
 .hendre_nav_manu.five.upper .hendre_menu>ul>li>a {
-    color: #fff!important;
+    color: #111!important;
 }
 
 .hendre_nav_manu.five.upper .hendre_menu>ul>li>a:hover {
@@ -762,14 +762,14 @@ ul.sub-menu li:hover a span{
 }
 
 .sticky.hendre_nav_manu.five.upper {
-    background: rgba(71, 69, 69, 0.35) !important; 
+    background: rgba(255, 255, 255, 0.6) !important; 
     backdrop-filter: blur(12px) !important;
     border-bottom: 1px solid #DDDDDD;
     padding: 0px 0px 0px 2px;
 }
 
 .hendre_nav_manu.five.upper {
-    background: rgba(71, 69, 69, 0.35); 
+    background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid #DEDEDE;
     padding: 0px 0px 0px 0px;
@@ -1084,7 +1084,7 @@ ul.social-box li a:hover {
     display: inline-block;
     font-size: 14px;
     line-height: 30px;
-    color: #515151;
+    color: #111;
     font-weight: 400;
     text-transform: uppercase;
     position: relative;
@@ -1107,7 +1107,7 @@ ul.social-box li a:hover {
 .breadcumb-content ul li {
     display: inline-block;
     margin-right: 20px;
-    color: #515151;
+    color: #111;
     text-transform: uppercase;
 }
 
@@ -1145,7 +1145,7 @@ ul.social-box li a:hover {
 }
 
 .sub-title h2 span {
-    color: #E4525C;
+    color: #6bb660;
 }
 
 .sub-title h2::before {
@@ -1156,7 +1156,7 @@ ul.social-box li a:hover {
     bottom: -30px;
     width: 75px;
     height: 2px;
-    background: #E4525C;
+    background: #f9bb67;
     margin: 0 auto 0;
 }
 
@@ -1199,19 +1199,19 @@ ul.social-box li a:hover {
 }
 
 .section_title .sub_title h4 {
-    font-size: 16px;
-    line-height: 30px;
-    color: #E4525C;
+    font-size: 14px;
+    line-height: 25px;
+    color: #101010;
     font-weight: 500;
-    margin: 0 0 0;
+    margin: 15px 0 20px;
 }
 
 .section_title .main_title h1 {
     font-size: 42px;
     line-height: 55px;
     color: #ffffff;
-    font-weight: 600;
-    margin: 15px 0 20px;
+    font-weight: 800;
+    margin: 0 0 0;
 }
 
 .section_title.upper .main_title h1 {
@@ -1219,27 +1219,28 @@ ul.social-box li a:hover {
 }
 
 .section_title.upper .sub_title h4 {
-    color: #E4525C;
+    color: #101010;
 }
 
 .section_title_five .sub_title h4 {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
     color: #fff;
-    font-weight: 500;
-    margin: 0 0 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 15px 0 20px;
 }
 
 .section_title_five .main_title h1 {
     font-size: 42px;
     line-height: 55px;
     color: #ffffff;
-    font-weight: 600;
-    margin: 15px 0 20px;
+    font-weight: 800;
+    margin: 0px 0 0px;
 }
 
 .section_title_five.upper .sub_title h4 {
-    color: #101010;
+    color: #6bb660;
 }
 
 .section_title_five.upper .main_title h1 {
@@ -1766,15 +1767,12 @@ ul.social-box li a:hover {
 
 /** Style Five **/
 
-.slider_area_five {
-    background: url(../images/slider/home-5-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 900px;
-    margin-top: -121px;
-    position: relative;
-    z-index: 1;
+.slider_area_five.upper{
+    height:900px;
+    margin-top:-121px;
+    position:relative;
+    overflow:hidden;
+    z-index:1;
 }
 
 .slider_area_five .single-slider {
@@ -1816,9 +1814,9 @@ ul.social-box li a:hover {
 
 .slider_area_five .slide_content h4 {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 20px;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 700;
     margin: 0 0 0;
 }
 
@@ -1826,6 +1824,7 @@ ul.social-box li a:hover {
     font-size: 60px;
     line-height: 70px;
     color: #ffffff;
+    text-transform: uppercase;
     font-weight: 700;
     margin: 20px 0 15px;
 }
@@ -1905,15 +1904,12 @@ ul.social-box li a:hover {
     left: 0;
 }
 
-.slider_area_five.upper {
-    background: url(../images/slider/home-6-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 900px;
-    margin-top: -121px;
-    position: relative;
-    z-index: 1;
+.slider_area_five.upper{
+    height:900px;
+    margin-top:-121px;
+    position:relative;
+    overflow:hidden;
+    z-index:1;
 }
 
 .slider_area_five.upper .slide_content {
@@ -2008,19 +2004,39 @@ ul.social-box li a:hover {
 
 /** Style Five **/
 
-.slider_area_five.upper {
-    background: url(../images/home-hero-banner.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 900px;
-    margin-top: -121px;
-    position: relative;
-    z-index: 1;
+.slider_area_five.upper{
+    height:900px;
+    margin-top:-130px;
+    position:relative;
+    overflow:hidden;
+    z-index:1;
+}
+.video-bg{
+    position:absolute;
+    inset:0;
+    overflow:hidden;
+    z-index:-2;
 }
 
+.video-bg iframe{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100vw;
+    height:56.25vw;
+    min-width:177.77vh;
+    min-height:100vh;
+    transform:translate(-50%,-50%);
+    pointer-events:none;
+}
+
+.video-overlay{
+    position:absolute;
+    inset:0;
+    z-index:-1;
+}
 .slider_area_five.upper .slide_content {
-    text-align: left;
+    text-align: center;
 }
 
 .slider_area_five.upper .slide_content h4 {
@@ -2509,7 +2525,7 @@ ul.social-box li a:hover {
     left: 35px;
     height: 0%;
     width: 89%;
-    background: #D5A97A;
+   
     opacity: 0;
     transition: .5s;
 }
@@ -2701,7 +2717,7 @@ ul.social-box li a:hover {
 .post-comment-description p {
     font-size: 15px;
     line-height: 28px;
-    color: #999999;
+    color: #111;
     letter-spacing: 0.5px;
     font-weight: 400;
     margin: 0 0 33px;
@@ -3232,7 +3248,7 @@ span.fill {
 .about_area_five .about_description p {
     font-size: 15px;
     line-height: 26px;
-    color: #999999;
+    color: #111;
     font-weight: 400;
     margin: 0 0 25px;
 }
@@ -3260,7 +3276,7 @@ span.fill {
 .about_area_five .about_button a {
     display: inline-block;
     font-size: 16px;
-    background: #E4525C;
+    background: #ef7d36;
     padding: 11px 29px;
     color: #fff;
     text-transform: uppercase;
@@ -3368,7 +3384,7 @@ span.fill {
     margin: 0 0 15px;
     font-size: 16px;
     line-height: 28px;
-    color: #616161;
+    color: #111;
     font-weight: 400;
 }
 
@@ -4523,7 +4539,7 @@ span.fill {
 .service-details-area .service_details_content p {
     font-size: 16px;
     line-height: 30px;
-    color: #616161;
+    color: #111;
     font-weight: 400;
     margin: 0 0 10px;
 }
@@ -4539,7 +4555,7 @@ span.fill {
 .service-details-area .service-steps-list ul li {
     font-size: 17px;
     line-height: 30px;
-    color: #616161;
+    color: #111;
     font-weight: 500;
     display: block;
     margin: 0 0 15px 20px;
@@ -4616,7 +4632,7 @@ span.fill {
     margin: 0;
     text-align: justify;
     letter-spacing: 0.3px;
-    color: #616161;
+    color: #111;
 }
 .arcke-agency {
     background: rgba(255, 255, 255, 0.82);
@@ -5689,7 +5705,7 @@ span.fill {
 }
 
 .contact_area_three .quote_button button {
-    background: #E4525C;
+    background: #7eaadb;
     text-align: center;
     display: inline-block;
     color: #fff;
@@ -12367,7 +12383,7 @@ button.btns:hover::before{
 
 .copyright-area {
     background: #161616;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 .copyright-area .copyright-title h4 {
@@ -12390,6 +12406,7 @@ button.btns:hover::before{
     width: auto;
     max-width: 180px;
     max-height: 80px;  
+    padding: 5px 0;
     height: 100%;
     object-fit: contain;
     display: block;
