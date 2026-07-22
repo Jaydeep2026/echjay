@@ -1055,7 +1055,7 @@ ul.social-box li a:hover {
 ==================================================-*/
 
 .breadcumb-area {
-    background: url(../images/resource/breadcumb.jpg);
+    background: url(/assets/images/about/about-pg-header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1087,10 +1087,11 @@ ul.social-box li a:hover {
 
 .breadcumb-content ul li a {
     display: inline-block;
-    font-size: 14px;
+    font-size: 0.725rem;
     line-height: 30px;
     color: #111;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: 0.025rem;
     text-transform: uppercase;
     position: relative;
     z-index: 1;
@@ -1111,6 +1112,14 @@ ul.social-box li a:hover {
 
 .breadcumb-content ul li {
     display: inline-block;
+    font-size: 0.725rem;
+    line-height: 30px;
+    color: #111;
+    font-weight: 600;
+    letter-spacing: 0.025rem;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
     margin-right: 20px;
     color: #111;
     text-transform: uppercase;
@@ -2733,12 +2742,13 @@ ul.social-box li a:hover {
 }
 
 .post-comment-description p {
-    font-size: 15px;
+    font-size: 0.965rem;
     line-height: 28px;
     color: #111;
     letter-spacing: 0.5px;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0 0 33px;
+    text-align: justify;
 }
 
 .tab-thumb {
@@ -4549,7 +4559,7 @@ span.fill {
 
 .service-details-area .service_details_content h3 {
     font-size: 20px;
-    line-height: 58px;
+    line-height: 1.8;
     color: #101010;
     font-weight: 600;
     margin: 0 0 0;
@@ -5970,27 +5980,27 @@ span.fill {
     margin: 0 auto 0;
     left: 0;
     right: 0;
-    background: rgba(71, 69, 69, 0.35);
+    background: rgba(255, 255, 255, 0.6);
     width: 90%;
-    padding: 35px 20px;
+    padding: 20px 10px;
     transition: .9s;
     opacity: 0;
 }
 
 .team-area.one .team-content h3 {
     font-size: 22px;
-    line-height: 26px;
+    line-height: 1;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #111;
     font-weight: 700;
     margin: 2px 0 11px;
 }
 
 .team-area.one .team-content span {
     font-size: 14px;
-    line-height: 26px;
+    line-height: 1;
     text-transform: capitalize;
-    color: #fffffe;
+    color: #111;
     font-weight: 400;
 }
 
@@ -9508,15 +9518,16 @@ input.src-input-box::placeholder {
 
 .portfolio-details-area .sideber-title h2 {
     font-size: 28px;
-    padding: 35px 0 20px;
+    padding: 25px 0 10px;
     color: #303030;
+    line-height: 1.2;
     text-align: center;
     font-weight: 600;
     text-transform: capitalize;
 }
 
 .portfolio-details-area .sideber-title p {
-    color: #626262;
+    color: #111;
     font-weight: 300;
     text-align: center;
     font-size: 14px;

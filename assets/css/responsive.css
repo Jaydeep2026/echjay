@@ -2452,7 +2452,7 @@
     display: none;
 }
 .about-area.one {
-    padding: 102px 0 15px;
+    padding: 50px 10px 50px;
 }
 .service-area.one {
     padding: 0 0 116px;
@@ -2461,7 +2461,7 @@
     display: none;
 }
 .team-area.one {
-    padding: 40px 0 90px;
+    padding: 0px 10px 50px;
 }
 .team-area.one::before {
     display: none;
@@ -2719,7 +2719,7 @@
 @media (max-width: 991px){
 
 .about-area-seven{
-    padding:70px 0;
+    padding:70px 10px;
 }
 
 .about-area-seven .single-about-left{
@@ -2879,5 +2879,19 @@
     padding-left: 10px;
     padding-right: 10px;
    
+}
+.breadcumb-area{
+    height: 300px;
+}
+.service-details-area{
+    padding: 50px 10px 50px;
+}
+.portfolio-details-area .sideber-title h2 {
+    text-align: justify;
+    padding: 10px;
+}
+.portfolio-details-area .sideber-title p {
+   text-align: justify;
+   padding: 0 10px;
 }
 }
