@@ -769,6 +769,213 @@
         $button.parent().find('input').val(newVal);
     });
 
+    const phoneInput = document.getElementById("phone");
+
+    phoneInput.addEventListener("input", function () {
+        this.value = this.value.replace(/\D/g, "").slice(0, 10);
+    });
+
+    phoneInput.addEventListener("keypress", function (e) {
+        if (!/[0-9]/.test(e.key)) {
+            e.preventDefault();
+        }
+    });
+
+    phoneInput.addEventListener("paste", function (e) {
+        e.preventDefault();
+
+        let paste = (e.clipboardData || window.clipboardData)
+            .getData("text")
+            .replace(/\D/g, "")
+            .slice(0, 10);
+
+        this.value = paste;
+    });
+
+    // ================================
+// DREAMIT CONTACT FORM
+// ================================
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const form = document.getElementById("dreamit-form");
+
+    if (!form) return;
+
+    const submitBtn = document.getElementById("submitBtn");
+
+    const name = document.getElementById("name");
+    const phone = document.getElementById("phone");
+    const email = document.getElementById("email");
+    const message = document.getElementById("message");
+
+    // Fake Mobile Numbers
+    const fakeNumbers = [
+        "0000000000",
+        "1111111111",
+        "2222222222",
+        "3333333333",
+        "4444444444",
+        "5555555555",
+        "6666666666",
+        "7777777777",
+        "8888888888",
+        "9999999999",
+        "9876543210",
+        "1234567890"
+    ];
+
+    // Disposable Email Domains
+    const blockedDomains = [
+        "mailinator.com",
+        "tempmail.com",
+        "10minutemail.com",
+        "guerrillamail.com",
+        "trashmail.com",
+        "yopmail.com",
+        "temp-mail.org",
+        "dispostable.com",
+        "fakeinbox.com"
+    ];
+
+    function showError(input, msg) {
+        alert(msg);
+        input.focus();
+    }
+
+    form.addEventListener("submit", function (e) {
+
+        e.preventDefault();
+
+        // NAME
+        const nameRegex = /^[A-Za-z ]{3,50}$/;
+
+        if (!nameRegex.test(name.value.trim())) {
+            showError(name, "Please enter a valid name.");
+            return;
+        }
+
+        // PHONE
+
+        const phoneValue = phone.value.trim();
+
+        if (!/^[6-9][0-9]{9}$/.test(phoneValue)) {
+            showError(phone, "Enter a valid mobile number.");
+            return;
+        }
+
+        if (fakeNumbers.includes(phoneValue)) {
+            showError(phone, "Fake mobile numbers are not allowed.");
+            return;
+        }
+
+        // EMAIL
+
+        const emailValue = email.value.trim().toLowerCase();
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!emailRegex.test(emailValue)) {
+            showError(email, "Enter a valid email address.");
+            return;
+        }
+
+        const domain = emailValue.split("@")[1];
+
+        if (blockedDomains.includes(domain)) {
+            showError(email, "Temporary email addresses are not allowed.");
+            return;
+        }
+
+        // MESSAGE
+
+        if (message.value.trim().length < 10) {
+            showError(message, "Please enter at least 10 characters.");
+            return;
+        }
+
+        // Button Loader
+
+        submitBtn.disabled = true;
+
+        submitBtn.innerHTML =
+            '<span class="spinner-border spinner-border-sm"></span> Sending...';
+
+        // AJAX
+
+        const formData = new FormData(form);
+
+        fetch(form.action, {
+
+            method: "POST",
+
+            body: formData
+
+        })
+
+        .then(response => response.json())
+
+        .then(data => {
+
+            submitBtn.disabled = false;
+
+            submitBtn.innerHTML = "SUBMIT NOW";
+
+            if (data.status == "success") {
+
+                form.reset();
+
+                Swal.fire({
+
+                    icon: "success",
+
+                    title: "Thank You!",
+
+                    text: data.message,
+
+                    confirmButtonColor: "#000"
+
+                });
+
+            } else {
+
+                Swal.fire({
+
+                    icon: "error",
+
+                    title: "Oops!",
+
+                    text: data.message,
+
+                    confirmButtonColor: "#000"
+
+                });
+
+            }
+
+        })
+
+        .catch(error => {
+
+            submitBtn.disabled = false;
+
+            submitBtn.innerHTML = "SUBMIT NOW";
+
+            Swal.fire({
+
+                icon: "error",
+
+                title: "Server Error",
+
+                text: "Please try again later."
+
+            });
+
+        });
+
+    });
+
+});
 
 
 })(jQuery);

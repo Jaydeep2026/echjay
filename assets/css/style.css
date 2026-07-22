@@ -517,13 +517,16 @@ nav.hendre_menu {
     margin: 25px 17px;
     transition: .5s;
     text-decoration: none;
-    font-size: 16px;
+    font-size:  0.875rem;
     text-transform: uppercase;
     line-height: 30px;
+    letter-spacing: 0.025rem;
     color: #ffffff;
     font-weight: 500;
     position: relative;
     z-index: 1;
+    background: linear-gradient(180deg, #4a4a4a 0%, #1f1f1f 35%, #000000 60%, #3a3a3a 100%);
+    -webkit-background-clip: text;
 }
 
 .hendre_menu>ul>li>a::after {
@@ -715,6 +718,7 @@ ul.sub-menu li:hover a span{
     background: #E4525C;
     padding: 11px 27px;
     color: #fff;
+    box-shadow: 0 2px 5px #ccc;
     text-transform: uppercase;
     position: relative;
     z-index: 1;
@@ -1137,6 +1141,7 @@ ul.social-box li a:hover {
     font-size: 50px;
     line-height: 58px;
     color: #ffffff;
+    text-transform: uppercase;
     font-weight: 600;
     margin: 0 0 0;
     position: relative;
@@ -1209,6 +1214,7 @@ ul.social-box li a:hover {
 .section_title .main_title h1 {
     font-size: 42px;
     line-height: 55px;
+    letter-spacing: -0.125rem;
     color: #ffffff;
     font-weight: 800;
     margin: 0 0 0;
@@ -1234,6 +1240,7 @@ ul.social-box li a:hover {
 .section_title_five .main_title h1 {
     font-size: 42px;
     line-height: 55px;
+    letter-spacing: -0.125rem;
     color: #ffffff;
     font-weight: 800;
     margin: 0px 0 0px;
@@ -1816,6 +1823,11 @@ ul.social-box li a:hover {
     font-size: 18px;
     line-height: 20px;
     color: #ffffff;
+     text-shadow:
+        0 0 5px rgba(255,255,255,.15),
+        0 3px 8px rgba(0,0,0,.9),
+        0 8px 25px rgba(0,0,0,.8),
+        0 15px 45px rgba(0,0,0,.6);
     font-weight: 700;
     margin: 0 0 0;
 }
@@ -1824,6 +1836,11 @@ ul.social-box li a:hover {
     font-size: 60px;
     line-height: 70px;
     color: #ffffff;
+     text-shadow:
+        0 0 5px rgba(255,255,255,.15),
+        0 3px 8px rgba(0,0,0,.9),
+        0 8px 25px rgba(0,0,0,.8),
+        0 15px 45px rgba(0,0,0,.6);
     text-transform: uppercase;
     font-weight: 700;
     margin: 20px 0 15px;
@@ -3279,6 +3296,7 @@ span.fill {
     background: #ef7d36;
     padding: 11px 29px;
     color: #fff;
+    box-shadow: 0 2px 5px #ccc;
     text-transform: uppercase;
     position: relative;
     z-index: 1;
@@ -3328,7 +3346,7 @@ span.fill {
 }
 
 .about_area_five .about_button a:hover{
-    color: #101010 ;
+    color: #6bb660;
 }
 
 .about_area_five .about_button a:hover::after{
@@ -3353,11 +3371,11 @@ span.fill {
 }
 
 .about_area_five.upper .about_button a:hover{
-    color: #fff;
+    color: #111;
 }
 
 .about_area_five.upper .about_button a::after {
-    background: #101010;
+    background: #fff;
 }
 
 .about-area-seven {
@@ -3420,7 +3438,7 @@ span.fill {
     color: #101010;
     font-weight: 600;
     display: inline-block;
-    border-bottom: 1px solid #E4525C
+    border-bottom: 1px solid #6bb660
 }
 
 .about-area-seven .about-button a i {
@@ -3433,7 +3451,7 @@ span.fill {
 }
 
 .about-area-seven .about-button a:hover{
-    color: #E4525C;
+    color: #6bb660;
 }
 
 .about-area-seven .appoinment-tab .tabs li a:hover{
@@ -5725,7 +5743,7 @@ span.fill {
     right: 0;
     height: 100%;
     width: 0%;
-    background: #101010;
+    background: #6bb660;
     z-index: -1;
     transition: .9s;
 }
