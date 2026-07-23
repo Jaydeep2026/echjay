@@ -2942,11 +2942,13 @@
     align-items: center;
     text-align: center;
 }
-.feature-content h3{
-
-}
 
 .sub-title p {
     width: 90%;
 }
+
+.video-wrapper{
+    transform:scale(4); 
+}
+
 }
