@@ -2162,7 +2162,7 @@ ul.social-box li a:hover {
 .video-wrapper{
     position:absolute;
     inset:0;
-    transform:scale(1);  
+    transform:scale(1.5);  
     transform-origin:center;
 }
 
