@@ -2894,4 +2894,22 @@
    text-align: justify;
    padding: 0 10px;
 }
+
+.team-area.one .single-team-box{
+    padding: 0 0 2rem;
+}
+
+.team-area.one .single-team-box .team-content{
+    position: relative;
+    width:100%;
+    bottom:0;
+    background: transparent;
+    height:auto;
+    opacity: 1;
+}
+
+.team-area.one .single-team-box .team-content span {
+    opacity:1;
+}
+
 }
