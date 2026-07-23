@@ -2310,7 +2310,18 @@
     font-size: 30px;
     line-height: 40px;
 }
-
+.breadcumb-area-redev .breadcumb-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.breadcumb-area-seller .breadcumb-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.breadcumb-area-contact .breadcumb-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
 .breadcumb-content ul li {
     font-size: 11px;
 }
@@ -2883,6 +2894,15 @@
 .breadcumb-area{
     height: 300px;
 }
+.breadcumb-area-contact{
+    height: 300px;
+}
+.breadcumb-area-seller{
+    height: 300px;
+}
+.breadcumb-area-redev{
+    height: 300px;
+}
 .service-details-area{
     padding: 50px 10px 50px;
 }
@@ -2912,4 +2932,21 @@
     opacity:1;
 }
 
+.redev-content h2{
+    font-size:1.5rem;
+}
+.mask-icon{
+    margin: auto;
+}
+.feature-content{
+    align-items: center;
+    text-align: center;
+}
+.feature-content h3{
+
+}
+
+.sub-title p {
+    width: 90%;
+}
 }
